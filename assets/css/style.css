@@ -1,0 +1,520 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.card-header {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: #f8f9fa;
+    padding: 8rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.stats {
+    margin-top: 4rem;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    color: #666;
+    margin: 0;
+}
+
+/* Modern Card Styles */
+.modern-card {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.modern-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Insurance Type Card */
+.insurance-type {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.insurance-type:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.insurance-icon {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.insurance-type img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.insurance-type h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.insurance-type p {
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.insurance-type .btn {
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.insurance-type .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Feature Card */
+.feature-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 1.5rem;
+}
+
+.feature-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    color: #666;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* Digital Services Section */
+.digital-services {
+    background: #f8f9fa;
+    padding: 5rem 0;
+}
+
+.service-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 1.5rem;
+}
+
+.service-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.service-card .btn {
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.service-card .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Enhanced rainbow gradient animation */
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.rainbow-text {
+    background: linear-gradient(45deg, 
+        #ff6b6b, 
+        #ff9770, 
+        #ffcc5c, 
+        #96ceb4, 
+        #4ecdc4, 
+        #45b7d1, 
+        #6c5ce7, 
+        #a855f7
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 800% 800%;
+    animation: rainbow 12s ease-in-out infinite;
+}
+
+/* Add hover effect for rainbow text */
+.rainbow-text:hover {
+    animation-play-state: paused;
+    background-size: 100% 100%;
+    transition: background-size 0.3s ease;
+}
+
+/* Custom styles for chat widget */
+.chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chat-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.chat-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.chat-modal {
+    position: fixed;
+    bottom: 120px;
+    right: 2rem;
+    width: 320px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: none;
+    animation: slideIn 0.3s ease;
+    z-index: 1001;
+    transform: translateX(0);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.chat-modal-header {
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-modal-header h5 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.chat-modal-header .close-btn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: var(--spacing-sm);
+}
+
+.chat-modal-content {
+    padding: var(--spacing-sm);
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    margin-bottom: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+    max-width: 80%;
+}
+
+.user-message {
+    background: var(--accent-color);
+    color: white;
+    margin-left: auto;
+}
+
+.bot-message {
+    background: #f0f0f0;
+    color: var(--text-color);
+}
+
+.chat-input {
+    padding: var(--spacing-sm);
+    border-top: 1px solid #eee;
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.chat-input input {
+    flex: 1;
+    padding: var(--spacing-sm);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+.chat-input button {
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.chat-input button:hover {
+    background: var(--accent-light);
+}
+
+.chat-button i {
+    font-size: 1.5rem;
+}
+
+/* Insurance Cards */
+.card {
+    border-radius: var(--border-radius);
+    border: none;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+    margin-bottom: var(--spacing-md);
+    overflow: hidden;
+    height: 100%;
+}
+
+.insurance-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.card-body {
+    padding: var(--spacing-md);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    padding: var(--spacing-sm) 1.5rem;
+}
+
+/* Footer */
+.footer {
+    background: var(--dark-bg);
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.footer-title {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--accent-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .cta-button {
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+    }
+
+    .insurance-card {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--light-bg);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-light);
+}
+
+/* Hide raw CSS */
+.raw-css {
+    display: none !important;
+}
